@@ -1,7 +1,7 @@
 import turtle
 from turtle import * 
 name=input("Please insert your name: ")
-print("Hello",name,"and welcome to the Shares program. In this program you insert the shape you want to draw and the program draws it.")
+print("Hello "+str(name)+" and welcome to the Shares program. In this program you insert the shape you want to draw and the program draws it.")
 shapes = ["star", "sun", "square", "hexagon", "triangle"] 
 for s in shapes:
           print (s)
